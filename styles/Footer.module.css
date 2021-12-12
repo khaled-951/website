@@ -1,0 +1,47 @@
+.test{
+    background-color: black;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:20vh;
+}
+
+.firstOrangeLine{
+    position: absolute;
+    background-color: orange;
+    margin: 1rem 45rem;
+    width: 20px;
+    height: 80px;
+    transform: rotate(40deg);
+    border-radius: 5px;
+  }
+  
+  .secondOrangeLine{
+    position: absolute;
+    background-color: orange;
+    margin: 4rem 45rem;
+    width: 20px;
+    height: 70px;
+    transform: rotate(-50deg);
+    border-radius: 5px;
+  }
+  
+  .firstBlueLine{
+    position: absolute;
+    background-color: skyblue;
+    margin: 5rem 49rem ;
+    width: 20px;
+    height: 65px;
+    transform: rotate(40deg);
+    border-radius: 5px;
+  }
+  
+  .secondBlueLine{
+    position: absolute;
+    background-color: skyblue;
+    margin: 2rem 49rem ;
+    width: 20px;
+    height: 70px;
+    transform: rotate(-50deg);
+    border-radius: 5px;
+  }

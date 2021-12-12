@@ -1,0 +1,68 @@
+.backgroundAndAlignment{
+    background-color: black ;
+    color: white ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.roundButton{
+    margin: 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.firstOrangeLine{
+    position: absolute;
+    background-color: orange;
+    margin: -2rem 1rem;
+    width: 15px;
+    height: 60px;
+    transform: rotate(40deg);
+    border-radius: 5px;
+  }
+  
+  .secondOrangeLine{
+    position: absolute;
+    background-color: orange;
+    margin: 0rem 1rem;
+    width: 15px;
+    height: 60px;
+    transform: rotate(-50deg);
+    border-radius: 5px;
+  }
+  
+  .firstBlueLine{
+    position: absolute;
+    background-color: skyblue;
+    margin: 0rem 4rem ;
+    width: 15px;
+    height: 60px;
+    transform: rotate(40deg);
+    border-radius: 5px;
+  }
+  
+  .secondBlueLine{
+    position: absolute;
+    background-color: skyblue;
+    margin: -1rem 4rem ;
+    width: 15px;
+    height: 50px;
+    transform: rotate(-50deg);
+    border-radius: 5px;
+  }
